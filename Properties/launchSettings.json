@@ -1,0 +1,31 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "trang.net no arguments": {
+      "commandName": "Project"
+    },
+    "trang.net infer xsd from xml": {
+      "commandName": "Project",
+      "commandLineArgs": "samples\\xml\\sample1.xml\r\nsamples\\generated-schemas\\sample1.xsd"
+    },
+    "trang.net infer rng from xml": {
+      "commandName": "Project",
+      "commandLineArgs": "samples\\xml\\sample1.xml\r\nsamples\\generated-schemas\\sample1.rng"
+    },
+    "trang.net infer rnc from xml": {
+      "commandName": "Project",
+      "commandLineArgs": "samples\\xml\\sample1.xml\r\nsamples\\generated-schemas\\sample1.rnc"
+    },
+    "trang.net rng to xsd": {
+      "commandName": "Project",
+      "commandLineArgs": "samples\\rng\\sample1.rng\r\nsamples\\converted-schemas\\sample1.xsd"
+    },
+    "trang.net dtd to xsd": {
+      "commandName": "Project",
+      "commandLineArgs": "samples\\dtd\\sample1.dtd\r\nsamples\\converted-schemas\\sample1.xsd"
+    }
+  }
+}

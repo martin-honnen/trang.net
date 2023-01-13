@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar 
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="root">
+            <element name="items">
+                <oneOrMore>
+                    <element name="item">
+                        <data type="string"/>
+                    </element>            
+                </oneOrMore>
+            </element>
+        </element>
+    </start>
+</grammar>

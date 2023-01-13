@@ -1,0 +1,1 @@
+﻿Just a dummy text file to ensure VS creates the output directory structure.
